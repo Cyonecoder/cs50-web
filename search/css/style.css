@@ -1,0 +1,109 @@
+main {
+    text-align: center;
+    align-items: center;
+    height: 10000px;
+}
+
+#mysearch {
+    align-items: center;
+    width: 800px;
+}
+
+#searchdiv {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#searchtext {
+    padding-left: 40px;
+    height: 40px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 19px;
+}
+
+#searchtext:focus {
+    padding-left: 40px;
+    height: 40px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 19px;
+    outline-width: 0;
+}
+
+#searchtext:hover {
+    padding-left: 40px;
+    height: 40px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 24px;
+    outline-width: 0;
+    box-shadow: 0px 0px 11px -1px #cfcfcf;
+}
+
+#searchimg {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+
+input[type="submit"] {
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 1px #cfcfcf;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.col-6 input {
+    width: 100%;
+}
+
+.col-3 {
+    font-size: 14px;
+}
+
+.logo-google {
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.myheader {
+    display: block;
+    color: #d93025;
+    text-align: start;
+    margin-left: 65px;
+    font-size: 24px;
+}
+
+.contentad {
+    margin-top: 70px;
+}
