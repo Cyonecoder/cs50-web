@@ -24,7 +24,7 @@
 
 
             <form class="d-flex">
-                <a class="nav-link" href="advancedq.html">Image Search</a>
+                <a class="nav-link" href="imgq.html">Image Search</a>
                 <a class="nav-link" href="index.html">Search</a>
             </form>
         </div>
@@ -38,13 +38,39 @@
         </div>
 
         <hr>
-
-        <div class=" mb-3 row contentad">
-            <label for="inputPassword" class="col-sm-3 col-form-label">all these words:</label>
-            <div class="col-sm-7">
-                <input type="text" class="form-control" id="inputPassword">
+        <form action="https://www.google.com/search" name="f">
+            <div class=" mb-3 row contentad">
+                <label for="inputPassword" class="col-sm-3 col-form-label">all these words:</label>
+                <div class="col-sm-7">
+                    <input type="text" name="as_q" class="form-control" id="inputPassword">
+                </div>
             </div>
-        </div>
+            <div class=" mb-3 row contentad">
+                <label for="inputPassword" class="col-sm-3 col-form-label">this exact word or
+                    phrase:</label>
+                <div class="col-sm-7">
+                    <input type="text" name="as_epq" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <div class=" mb-3 row contentad">
+                <label for="inputPassword" class="col-sm-3 col-form-label">any of these words:
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="as_oq" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <div class=" mb-3 row contentad">
+                <label for="inputPassword" class="col-sm-3 col-form-label">none of these words:</label>
+                <div class="col-sm-7">
+                    <input type="text" name="as_eq" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <div style="margin-left: 25px;text-align: end;" class="col-sm-10"><input id="advs" type="submit"
+                    value="Advanced Search">
+            </div>
+
+        </form>
+
     </main>
 </body>
 

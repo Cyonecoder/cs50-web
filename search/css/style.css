@@ -1,7 +1,6 @@
 main {
     text-align: center;
     align-items: center;
-    height: 10000px;
 }
 
 #mysearch {
@@ -106,4 +105,32 @@ nav {
 
 .contentad {
     margin-top: 70px;
+    font-size: 13px;
+}
+
+.contentad label {
+    text-align: start;
+    margin-left: 25px
+}
+
+#advs {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px 7px;
+    background-color: rgb(0, 119, 255);
+}
+
+.mainimg {
+    position: relative;
+    margin: auto auto;
+    height: 190px;
+    width: 266px;
+}
+
+.gimg {
+    position: absolute;
+    bottom: 50px;
+    right: 19px;
+    color: blue;
 }
